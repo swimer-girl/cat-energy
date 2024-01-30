@@ -6,6 +6,19 @@
   background-image: url("../img/background/promo.jpg");
 
   text-align: center;
+
+  @media (min-width: $breakpoint-medium) {
+    color: $color-black;
+    background-color: transparent;
+
+    text-align: left;
+  }
+}
+
+.promo__container {
+  @media (min-width: $breakpoint-medium) {
+    padding-left: 90px;
+  }
 }
 
 .promo__heading {
