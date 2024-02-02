@@ -4,12 +4,15 @@
 
 .page-main__heading {
   margin: 0;
-  margin-bottom: 40px;
 
   font-family: $font-heading;
   font-size: 36px;
   font-weight: 400;
   line-height: 40px;
+
+  &:not(:last-child) {
+    margin-bottom: 40px;
+  }
 
   @media (min-width: $breakpoint-medium) {
     margin-bottom: 32px;
